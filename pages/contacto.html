@@ -8,9 +8,13 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <!--BARRA DE NAVEGqACIÓN-->
+    <header>
     <!--BARRA DE NAVEGqACIÓN-->
-<nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom border-primary">
+    <div class="container-fluid">
+<nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom">
+    <a class="navbar-brand" href="#">
+        <img src="../imagenes/0c62013c0dcded29a21309727dc632fe--shopping-carts-design-art.jpg" alt="Tu Logo" width="50" height="50">
+      </a>
     <div class="container-fluid">
       <a href="#" class="navbar-brand">FSBuenosAires</a>
       <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
@@ -19,18 +23,40 @@
       <div id="MenuNavegacion" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-3">
           <li class="nav-item"><a class="nav-link" href="/index.html">Index</a></li>
-          <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
-          <li class="nav-item"><a class="nav-link" href="./pages/nosotros.html">Nosotros</a></li>
-          <li class="nav-item"><a class="nav-link" href="./pages/ejemplo.html">Ejemplo</a></li>
-          <li class="nav-item"><a class="nav-link" href="./pages/camisetas.html">Camisetas</a></li>
+          <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="../pages/ejemplo.html">Ejemplo</a></li>
+          <li class="nav-item"><a class="nav-link" href="../pages/camisetas.html">Camisetas</a></li>
           <li class="nav-item"><a class="nav-link" href="pages/calzados.html">Calzados</a></li>
           <li class="nav-item"><a class="nav-link" href="/pages/grid.html">Grid example</a></li>
           <li class="nav-item"><a class="bottom nav-link" href="#Bottom">Bottom</a></li>
         </ul>
       </div>
     </div>
+</div>
   </nav>
   </div>
+</header>
+<!--Fin NAV-->
+<main>
+<div class="container">
+    <h1>Contacto</h1>
+    <form>
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="tucorreo@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+        </div>
+        <button type="submit" class="botón">Enviar</button>
+    </form>
+</div>
+</main>
 
 <script src="../bootstrap/js.js/bootstrap.bundle.min.js"></script>
 </body>
