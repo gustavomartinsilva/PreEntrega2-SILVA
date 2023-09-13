@@ -1,13 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Condensed:wght@300&display=swap");
+
+$color-principal: #333;
+$ancho:100%;
+$alto:75px;
+$font:1rem;
 
 /* reset de estilos por defecto */
-*{
-    font-family: 'Poppins', sans-serif;
-    font-size: 20       px;
-    font-weight: 700;
-    margin:0;
-    padding:0;
-    list-style: none;
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 20 px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0px;
+  list-style: none;
 }
 
-                    
+#contenedor{
+    width: $ancho;
+    height: $alto;
+    background-color: rgb(255, 255, 255);
+    #barra-de-navegación{
+        height: 75px;
+        font-size: $font;
+        /*nesting o anidación   */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos que se aplicarán cuando el ancho de la pantalla sea igual o menor a 768px */
+    img {
+      display: none;
+    }
+}
+
