@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Condensed:wght@300&display=swap");
+/* reset de estilos por defecto */
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 20 px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+#contenedor {
+  width: 100%;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+}
+#contenedor #barra-de-navegación {
+  height: 75px;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  /* Estilos que se aplicarán cuando el ancho de la pantalla sea igual o menor a 768px */
+  img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
