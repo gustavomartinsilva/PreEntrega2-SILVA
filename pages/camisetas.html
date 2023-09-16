@@ -4,39 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <header>
-        <h1>HEADER</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="ejemplo.html">Ejemplo</a>
-                </li>
-                <li>
-                    <a href="./calzados.html">Calzados</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
     <main>
-        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, earum, a blanditiis hic tempora soluta numquam reprehenderit, ducimus labore assumenda maiores modi? Excepturi, sed exercitationem quod quibusdam eum porro perspiciatis?</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium amet nesciunt in voluptatem architecto provident! Illo ex voluptas officia quaerat commodi neque ullam sunt suscipit error nobis, tenetur quidem excepturi!</p>
-    <img src="../imagenes/0c62013c0dcded29a21309727dc632fe--shopping-carts-design-art.jpg" alt="">
+        <div class="container-fluid" id="contenedor">
+            <!--BARRA DE NAVEGqACIÓN-->
+          <nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom" id="barra-de-navegación">
+            <a class="navbar-brand" href="#">
+              <img src="../imagenes/0c62013c0dcded29a21309727dc632fe--shopping-carts-design-art.jpg" alt="Tu Logo" width="50" height="50">
+            </a>
+            <div class="container-fluid">
+              <a href="#" class="navbar-brand">FSBuenosAires</a>
+              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div id="MenuNavegacion" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">index</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+                  <li class="nav-item"><a class="nav-link" href="../pages/calzados.html">Calzados</a></li>
+                  <li class="nav-item"><a class="bottom nav-link" href="#Bottom">Bottom</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          </div>
     </main>
-    <footer>
-    <h3>H3footer</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem consectetur est nihil, unde alias incidunt rerum ad, natus quasi reprehenderit consequatur, dicta voluptate asperiores quidem assumenda? Laudantium labore qui cupiditate!</p>
-    </footer>
-</body>
 </html>
