@@ -11,98 +11,121 @@
     <meta name="keywords" content="Tienda Online HTML Mercado Libre Descuentos Productos Futbol Ropa Deportes">
 </head>
 <body>
-    <main>
-        <div class="container-fluid" id="contenedor">
-            <!--BARRA DE NAVEGqACIÓN-->
-          <nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom" id="barra-de-navegación">
-            <a class="navbar-brand" href="../index.html">
+    <header>
+      <div class="container-fluid" id="contenedor">
+        <!--BARRA DE NAVEGqACIÓN-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom">
+          <a class="navbar-brand" href="#">
               <img src="../imagenes/0c62013c0dcded29a21309727dc632fe--shopping-carts-design-art.jpg" alt="Tu Logo" width="50" height="50">
             </a>
-            <div class="container-fluid">
-              <a href="../index.html" class="navbar-brand">FSBuenosAires</a>
-              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div id="MenuNavegacion" class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-3">
-                    <li class="nav-item"><a class="nav-link" href="../index.html">index</a></li>
-                  <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-                  <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
-                  <li class="nav-item"><a class="nav-link" href="../pages/calzados.html">Calzados</a></li>
-                  <li class="nav-item"><a class="bottom nav-link" href="#Bottom">Bottom</a></li>
-                </ul>
-              </div>
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand">FSBuenosAires</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Usa la imaginación!</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Busca...">
             </div>
-          </nav>
+            <div id="MenuNavegacion" class="collapse navbar-collapse">
+              <ul class="navbar-nav ms-3">
+                <li class="nav-item"><a class="nav-link" href="/index.html">Index</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="./calzados.html">Calzados</a></li>
+              </ul>
+            </div>
           </div>
-
-<section>
- <!-- Contenido principal -->
- <div class="container mt-4">
-  <div class="row">
-      <!-- Filtros -->
-      <div class="col-md-3">
-          <h4>Filtros</h4>
-          <!-- Agrega aquí los filtros de categorías, precio, etc. -->
-          <div class="category-filter">
-            <label>Categorías:</label>
-            <select class="form-control">
-                <option value="categoria1">Categoría 1</option>
-                <option value="categoria2">Categoría 2</option>
-                <option value="categoria3">Categoría 3</option>
-                <!-- Agrega más opciones de categorías según sea necesario -->
-            </select>
-        </div>
       </div>
+        </nav>
+      </div>
+      </header>
+
+<main>
 
       <!-- Listado de productos -->
-      <div class="col-md-9">
-          <h2>Productos Destacados</h2>
-          <div class="row">
-              <!-- Producto 1 -->
-              <div class="col-md-5">
-                  <div class="card mb-4">
-                      <img src="imagen_producto1.jpg" class="card-img-top" alt="Producto 1">
-                      <div class="card-body">
-                          <h5 class="card-title">Nombre del Producto 1</h5>
-                          <p class="card-text">Descripción breve del producto.</p>
-                          <p class="card-text">$Precio</p>
-                          <a href="#" class="btn btn-primary">Ver Detalles</a>
-                      </div>
-                  </div>
-              </div>
+      <div class="container mt-5">
+        <div class="row">
+          <h1><strong>CAMISETAS DE FUTBOL TOP!</strong></h1>
+            <!-- Producto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Zapatos de Cuero</h5>
+                        <p class="card-text">Zapatos de cuero de alta calidad para hombres.</p>
+                        <p class="card-text">$99.99</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
 
-              <!-- Producto 2 -->
-              <div class="col-md-5">
-                <div class="card mb-4">
-                  <img src="imagen_producto1.jpg" class="card-img-top" alt="Producto 2">
-                  <div class="card-body">
-                      <h5 class="card-title">Nombre del Producto 1</h5>
-                      <p class="card-text">Descripción breve del producto.</p>
-                      <p class="card-text">$Precio</p>
-                      <a href="#" class="btn btn-primary">Ver Detalles</a>
-                  </div>
-              </div>
-              </div>
+            <!-- Producto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagen-producto2.jpg" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Zapatillas Deportivas</h5>
+                        <p class="card-text">Zapatillas deportivas para correr.</p>
+                        <p class="card-text">$79.99</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
 
-              <!-- Producto 3 -->
-              <div class="col-md-5">
-                <div class="card mb-4">
-                  <img src="imagen_producto1.jpg" class="card-img-top" alt="Producto 3">
+            <!-- Producto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagen-producto3.jpg" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Sandalias de Verano</h5>
+                        <p class="card-text">Sandalias cómodas para el verano.</p>
+                        <p class="card-text">$49.99</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="col-md-4">
+              <div class="card">
+                  <img src="imagen-producto2.jpg" class="card-img-top" alt="Producto 2">
                   <div class="card-body">
-                      <h5 class="card-title">Nombre del Producto 1</h5>
-                      <p class="card-text">Descripción breve del producto.</p>
-                      <p class="card-text">$Precio</p>
-                      <a href="#" class="btn btn-primary">Ver Detalles</a>
+                      <h5 class="card-title">Zapatillas Deportivas</h5>
+                      <p class="card-text">Zapatillas deportivas para correr.</p>
+                      <p class="card-text">$79.99</p>
+                      <a href="#" class="btn btn-primary">Agregar al carrito</a>
                   </div>
-              </div>
               </div>
           </div>
-      </div>
-  </div>
-</div>
-</section>
-    </main>
+
+             <!-- Producto 5 -->
+             <div class="col-md-4">
+              <div class="card">
+                  <img src="imagen-producto2.jpg" class="card-img-top" alt="Producto 2">
+                  <div class="card-body">
+                      <h5 class="card-title">Zapatillas Deportivas</h5>
+                      <p class="card-text">Zapatillas deportivas para correr.</p>
+                      <p class="card-text">$79.99</p>
+                      <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+              </div>
+          </div>
+
+           <!-- Producto 6 -->
+           <div class="col-md-4">
+            <div class="card">
+                <img src="imagen-producto2.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Zapatillas Deportivas</h5>
+                    <p class="card-text">Zapatillas deportivas para correr.</p>
+                    <p class="card-text">$79.99</p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+</main>
+
     <footer>
       <footer class="bg-dark text-light text-center py-4 fixed-bottom">
         <div class="container">
