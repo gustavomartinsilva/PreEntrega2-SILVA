@@ -18,16 +18,12 @@ $font:1rem;
 
 #contenedor{
     width: $ancho;
-    height: $alto ;
+    
     background-color: rgb(255, 255, 255);
     #barra-de-navegación{
         font-size: $font;
         /*nesting o anidación   */
     }
-}
-
-nav{
-  z-index: 100px; /* Asegura que el menú hamburguesa esté en la parte superior */
 }
 
 @media screen and (max-width: 768px) {
@@ -37,4 +33,5 @@ nav{
       width: 100%;
     }
 }
+
 
