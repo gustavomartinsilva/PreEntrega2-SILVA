@@ -3,22 +3,33 @@
 /* reset de estilos por defecto */
 * {
   font-family: "Poppins", sans-serif;
-  font-size: 20 px;
-  font-weight: 700;
-  margin: 0;
+  font-size: auto;
+  margin: auto;
   padding: 0px;
   list-style: none;
 }
 
+body {
+  font-weight: bold;
+}
+
 #contenedor {
   width: 100%;
-  height: 75px;
   background-color: rgb(255, 255, 255);
 }
 #contenedor #barra-de-navegación {
   font-size: 1rem;
+  /*nesting o anidación   */
 }
 
-
+@media screen and (max-width: 768px) {
+  /* Estilos CSS para pantallas de hasta 768px de ancho */
+  #logo-de-nav {
+    display: none;
+  }
+}
+#carrousel-de-imagenes {
+  width: auto;
+}
 
 /*# sourceMappingURL=style.css.map */

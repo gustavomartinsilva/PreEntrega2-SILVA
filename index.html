@@ -2,8 +2,8 @@
 <html lang="en">
     <title>FSBuenosAires</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./imagenes/0c62013c0dcded29a21309727dc632fe--shopping-carts-design-art.jpg" type="image/x-icon">
     <meta name="description" content="Aquí encontrarás gran variedad de productos deportivos, con descuentos especiales!">
     <meta name="keywords" content="Tienda Online HTML Mercado Libre Descuentos Productos Futbol Ropa Deportes">
@@ -12,27 +12,26 @@
   <header>
 <div class="container-fluid" id="contenedor">
   <!--BARRA DE NAVEGqACIÓN-->
-  <nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom">
-    <a class="navbar-brand" href="#">
-        <img src="../imagenes/0c62013c0dcded29a21309727dc632fe--shopping-carts-design-art.jpg" alt="Tu Logo" width="50" height="50">
-      </a>
+  <nav class="navbar navbar-expand-md navbar-light bg-light border-5 border-bottom">
+    <a class="navbar-brand" href="../index.html">
+      <img id="logo-de-nav" src="../imagenes/0c62013c0dcded29a21309727dc632fe--shopping-carts-design-art.jpg" alt="Tu Logo" width="50" height="50">
+    </a>
     <div class="container-fluid">
       <a href="#" class="navbar-brand">FSBuenosAires</a>
       <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">Usa la imaginación!</label>
+        <label for="formGroupExampleInput" class="form-label"><strong>Usa la imaginación!</strong></label>
         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Busca...">
       </div>
       <div id="MenuNavegacion" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-3">
-          <li class="nav-item"><a class="nav-link" href="/index.html">Index</a></li>
+        
           <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html">Nosotros</a></li>
           <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
           <li class="nav-item"><a class="nav-link" href="../pages/camisetas.html">Camisetas</a></li>
           <li class="nav-item"><a class="nav-link" href="pages/calzados.html">Calzados</a></li>
-          <li class="nav-item"><a class="bottom nav-link" href="#Bottom">Bottom</a></li>
         </ul>
       </div>
     </div>
@@ -40,7 +39,6 @@
   </nav>
 </div>
 </header>
-<br>
 <section class="carousel">
   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
@@ -48,7 +46,7 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner">
+    <div class="carousel-inner id="carrousel-de-imagenes">
       <div class="carousel-item active">
         <img src="https://picsum.photos/id/473/1920/500/?" class="d-block w-100" alt="slider1">
         <div class="carousel-caption d-none d-md-block">
@@ -87,8 +85,8 @@
  <div class="container-fluid">
   <div class="row">
     <h1 class="display-1 text-center border-bottom mark"><strong>Lo Mas Vendido!</strong></h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, possimus optio corrupti earum aut itaque eveniet animi sint dolores? Rem fugiat iure delectus vero magnam omnis eveniet. Temporibus, ut obcaecati!
+    <p class="font-weight-bold border-bottom text-center">
+      <strong>Todos nuestro productos cuentan con garantías y envíos!</strong>
     </p>
   </div>
 
@@ -191,7 +189,7 @@
         <div class="row mt-5">
             <div class="col-12">
                 <div class="alert alert-info" role="alert">
-                    <h4 class="alert-heading text-center">Métodos de Pago</h4>
+                    <h4 class="alert-heading text-center"><strong>Métodos de Pago</strong></h4>
                     <p class="text-center">Aceptamos los siguientes métodos de pago:</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <img src="./imagenes/visa.png" alt="Visa" class="img-fluid mx-2" width="100">
