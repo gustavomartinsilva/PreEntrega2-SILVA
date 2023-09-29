@@ -19,11 +19,6 @@
   font-size: 1rem;
 }
 
-@media screen and (max-width: 768px) {
-  /* Estilos que se aplicarán cuando el ancho de la pantalla sea igual o menor a 768px */
-  img {
-    display: none;
-  }
-}
+
 
 /*# sourceMappingURL=style.css.map */
