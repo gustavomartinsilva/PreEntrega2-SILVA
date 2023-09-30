@@ -12,7 +12,7 @@
   <header>
 <div class="container-fluid" id="contenedor">
   <!--BARRA DE NAVEGqACIÓN-->
-  <nav class="navbar navbar-expand-md navbar-light bg-light border-5 border-bottom">
+  <nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom">
     <a class="navbar-brand" href="../index.html">
       <img id="logo-de-nav" src="../imagenes/0c62013c0dcded29a21309727dc632fe--shopping-carts-design-art.jpg" alt="Tu Logo" width="50" height="50">
     </a>
@@ -22,16 +22,15 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label"><strong>Usa la imaginación!</strong></label>
+        <label for="formGroupExampleInput" class="form-label">Usa la imaginación!</label>
         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Busca...">
       </div>
       <div id="MenuNavegacion" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-3">
-        
-          <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html">Nosotros</a></li>
-          <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
-          <li class="nav-item"><a class="nav-link" href="../pages/camisetas.html">Camisetas</a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/calzados.html">Calzados</a></li>
+          <li class="nav-item"><a class="nav-link" id="custom-hover" href="../pages/nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" id="custom-hover" href="./pages/contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" id="custom-hover" href="../pages/camisetas.html">Camisetas</a></li>
+          <li class="nav-item"><a class="nav-link" id="custom-hover" href="pages/calzados.html">Calzados</a></li>
         </ul>
       </div>
     </div>
@@ -47,24 +46,24 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner id="carrousel-de-imagenes">
-      <div class="carousel-item active">
-        <img src="https://picsum.photos/id/473/1920/500/?" class="d-block w-100" alt="slider1">
+      <div class="carousel-item active" id="slider1">
+        <img src="./imagenes/pelotita.webp" class="d-block w-110" alt="slider1">
         <div class="carousel-caption d-none d-md-block">
-          <p><strong>Visitarnos es todo una experiencia...</strong></p>
+          <p>Visitarnos es todo una experiencia...</p>
           <p>El hogar de los futboleros a nivel internacional.</p>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="https://picsum.photos/id/206/1920/500/?" class="d-block w-100" alt="slider2">
+      <div class="carousel-item" id="slider2">
+        <img src="./imagenes/pelotita2.webp" class="d-block w-110" alt="slider2">
         <div class="carousel-caption d-none d-md-block">
-          <p><strong>Navegá, visitá, elegí y comprá</strong></p>
-          <p>Todo en un mismo lugar.</p>
+          <p class="text-black">Navegá, visitá, elegí y comprá</p>
+          <p class="text-black">Todo en un mismo lugar.</p>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="https://picsum.photos/id/190/1920/500/?" class="d-block w-100" alt="slider3" >
+      <div class="carousel-item" id="slider3">
+        <img src="./imagenes/CANCHA.webp" class="d-block w-110" alt="slider3" >
         <div class="carousel-caption d-none d-md-block">
-          <p></strong>Made by Gustavo Silva</strong></p>
+          <p class="text-black">Made by Gustavo Silva</p>
           <p>date 29/09/2023</p>
         </div>
       </div>
@@ -84,7 +83,7 @@
 <main>
  <div class="container-fluid">
   <div class="row">
-    <h1 class="display-1 text-center border-bottom mark"><strong>Lo Mas Vendido!</strong></h1>
+    <h1 class="display-1 text-center border-bottom bg-info text-black"><strong>Lo Mas Vendido!</strong></h1>
     <p class="font-weight-bold border-bottom text-center">
       <strong>Todos nuestro productos cuentan con garantías y envíos!</strong>
     </p>
@@ -102,9 +101,9 @@
           <div class="card">
               <img src="./imagenes/camiseta.webp" class="card-img-top" alt="Producto 1">
               <div class="card-body">
-                  <h5 class="card-title">Producto 1</h5>
-                  <p class="card-text">Descripción del Producto 1.</p>
-                  <p class="card-text">Precio: $XX.XX</p>
+                  <h5 class="card-title">Camiseta de Argentina Campeones del mundo</h5>
+                  <p class="card-text"></p>
+                  <p class="card-text">Precio: $40.00</p>
                   <a href="#" class="btn btn-primary">Comprar</a>
               </div>
           </div>
@@ -115,9 +114,9 @@
           <div class="card">
               <img src="./imagenes/boca.webp" class="card-img-top" alt="Producto 2">
               <div class="card-body">
-                  <h5 class="card-title">Producto 2</h5>
-                  <p class="card-text">Descripción del Producto 2.</p>
-                  <p class="card-text">Precio: $XX.XX</p>
+                  <h5 class="card-title">Camiseta de Boca Chomba.</h5>
+                  <p class="card-text"></p>
+                  <p class="card-text">Precio: $30.00</p>
                   <a href="#" class="btn btn-primary">Comprar</a>
               </div>
           </div>
@@ -128,9 +127,9 @@
           <div class="card">
               <img src="/imagenes/river.webp" class="card-img-top" alt="Producto 3">
               <div class="card-body">
-                  <h5 class="card-title">Producto 3</h5>
-                  <p class="card-text">Descripción del Producto 3.</p>
-                  <p class="card-text">Precio: $XX.XX</p>
+                  <h5 class="card-title">Camiseta de River Equipo Femenino</h5>
+                  <p class="card-text">.</p>
+                  <p class="card-text">Precio: $20.00</p>
                   <a href="#" class="btn btn-primary">Comprar</a>
               </div>
           </div>
@@ -139,16 +138,16 @@
 </div>
 
 <div class="container">
-  <h3><strong>Productos Populares!</strong></h3>
+  <h3>Productos Variados.</h3>
   <div class="row">
       <!-- Tarjeta de Producto 4 -->
       <div class="col-md-4">
           <div class="card">
               <img src="./imagenes/mochila arg.webp" class="card-img-top" alt="Producto 4">
               <div class="card-body">
-                  <h5 class="card-title">Producto 1</h5>
-                  <p class="card-text">Descripción del Producto 1.</p>
-                  <p class="card-text">Precio: $XX.XX</p>
+                  <h5 class="card-title">Mochila Argentina</h5>
+                  <p class="card-text"></p>
+                  <p class="card-text">Precio: $10.00</p>
                   <a href="#" class="btn btn-primary">Comprar</a>
               </div>
           </div>
@@ -159,9 +158,9 @@
           <div class="card">
               <img src="./imagenes/calzado.botin.webp" class="card-img-top" alt="Producto 5">
               <div class="card-body">
-                  <h5 class="card-title">Producto 2</h5>
-                  <p class="card-text">Descripción del Producto 2.</p>
-                  <p class="card-text">Precio: $XX.XX</p>
+                  <h5 class="card-title">Botines futuristas Naranja ADIDAS.</h5>
+                  <p class="card-text"></p>
+                  <p class="card-text">Precio: $15.00</p>
                   <a href="#" class="btn btn-primary">Comprar</a>
               </div>
           </div>
@@ -172,9 +171,9 @@
           <div class="card">
               <img src="./imagenes/camiseta arg alternativa.webp" class="card-img-top" alt="Producto 6">
               <div class="card-body">
-                  <h5 class="card-title">Producto 3</h5>
-                  <p class="card-text">Descripción del Producto 3.</p>
-                  <p class="card-text">Precio: $XX.XX</p>
+                  <h5 class="card-title">Camiseta  Alternativa Seleccion Argentina Campeona</h5>
+                  <p class="card-text"></p>
+                  <p class="card-text">Precio: $30.00</p>
                   <a href="#" class="btn btn-primary">Comprar</a>
               </div>
           </div>
